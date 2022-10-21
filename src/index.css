@@ -1,3 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+  font-family: Norse;
+  src: url("./fonts/norse-bold.woff2");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("./fonts/roboto-regular.woff2");
+}
