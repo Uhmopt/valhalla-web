@@ -13,7 +13,7 @@ export default function EnterVideo() {
         title="Play: Video"
       ></lite-youtube>
       <div className="play-button">
-        <Link href="https://valhalla.game/game.html">
+        <Link to="/play">
           <div className="skewed-btn-bg"></div>
         </Link>
         <p>Play</p>
