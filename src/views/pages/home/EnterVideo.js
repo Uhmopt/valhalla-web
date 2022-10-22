@@ -13,7 +13,7 @@ export default function EnterVideo() {
         title="Play: Video"
       ></lite-youtube>
       <div className="play-button">
-        <Link to="/play">
+        <Link to="#">
           <div className="skewed-btn-bg"></div>
         </Link>
         <p>Play</p>

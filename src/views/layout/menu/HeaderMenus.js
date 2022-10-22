@@ -12,6 +12,6 @@ export default function HeaderMenus() {
 }
 
 export const MENU_DATA = [
-  { label: "Veras", to: "/veras" },
+  { label: "Veras", to: "#" },
   { label: "News", to: "/news" },
 ];
