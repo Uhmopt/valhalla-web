@@ -4,10 +4,10 @@ import NewsCardGrid from "./NewsCardGrid";
 
 export default function News() {
   return (
-    <div class="container news-list-container">
+    <div className="container news-list-container">
       <h2>News</h2>
 
-      <div class="row tags-container justify-content-center"></div>
+      <div className="row tags-container justify-content-center"></div>
 
       <NewsCardGrid />
 

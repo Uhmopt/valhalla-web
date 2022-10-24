@@ -7,7 +7,7 @@ export default function NewsDetail() {
   const { id } = useParams();
 
   const data =
-    useMemo(() => NEWS_DATA.find((item) => item?.id === id), [id]) ??
+    useMemo(() => NEWS_DATA.find((item) => `${item?.id}` === `${id}`), [id]) ??
     DEFAULT_NEWS_DATA;
 
   return <NewsDetailContent data={data} />;
