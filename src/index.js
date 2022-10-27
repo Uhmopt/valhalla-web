@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
-// import registerServiceWorker from "./registerServiceWorker";
+import registerServiceWorker from "./registerServiceWorker";
 import reportWebVitals from "./reportWebVitals";
-import * as serviceWorker from "./serviceWorker";
+// import * as serviceWorker from "./serviceWorker";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,8 +12,8 @@ root.render(
     <App />
   </React.StrictMode>
 );
-// registerServiceWorker();
-serviceWorker.register();
+registerServiceWorker();
+// serviceWorker.register();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
